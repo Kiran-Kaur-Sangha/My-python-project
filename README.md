@@ -1,87 +1,64 @@
-# 🐍 Python Programming & Pandas Data Analysis
+# 🐍 Algorithmic Problem Solving & Quantitative Data Manipulation (Python & Pandas)
 
-Explored Python programming and Pandas through a series of practical exercises focused on problem-solving, data manipulation, automation, and analytical thinking. Applied core programming concepts to build interactive programs, perform calculations, analyse datasets, and transform raw data into meaningful insights.
+## 📌 Project Background & Context
 
-## 🔹 Python Fundamentals
+* **Role:** Associate Data Analyst (Data Analyst Bootcamp Client Project)
+* **Stakeholder Audience:** Operations Management & Business Intelligence Teams
+* **Context:** As a core technical milestone within my intensive Data Technician Bootcamp, I completed a series of programmatic data pipelines and core automation scripts using Python and the Pandas library. Transitioning from visual BI interfaces to programmatic execution, this project required using Google Colab and Jupyter Notebook environments to engineer algorithmic business logic (such as validation systems and conditional loops) and execute vectorized data cleansing on messy retail and vehicle datasets. The ultimate goal was to replace manual file manipulation with reproducible, automated data engineering workflows.
 
-Developed an understanding of Python syntax, variables, data types, user inputs, operators, and basic programming structures to create interactive applications and automate tasks.
+---
 
-**Examples of work completed:**
-- Created security code validation systems using conditional statements
-- Built divisibility checkers using modulus operators (`%`)
-- Developed calculator programs using menus, loops, and decision-making logic
-- Used user inputs to drive program behaviour and outputs
+## 📑 Executive Summary
 
-## 🔹 Decision Making & Program Logic
+This development repository contains a modular collection of production-ready Python automation scripts and structured Pandas analysis tasks. The initial modules focus on foundational programmatic structures, implementing data type control frameworks, validation loops, and error-handling menu interfaces to process direct user inputs cleanly.
 
-Applied conditional statements (`if`, `elif`, `else`) to control program flow and make decisions based on user inputs and defined conditions.
+The core of the project applies advanced Pandas workflows to process transactional product sales logs and legacy automotive metrics. By engineering data hygiene functions, applying targeted conditional indexing, and calculating weighted variables, this setup transforms messy raw tables into clean, structured datasets ready for corporate reporting. These programmatic assets eliminate repetitive manual tracking tasks, giving downstream stakeholders instant access to cleaner business data.
 
-**Examples of work completed:**
-- Verified user-entered security access codes
-- Checked whether numbers were divisible by multiple values
-- Validated user selections within calculator applications
-- Produced different outputs based on user-defined criteria
+---
 
-## 🔹 Loops & Iteration
+## 🛠️ Technical Workflow & Practical Applications
 
-Explored `for` and `while` loops to automate repetitive tasks, perform calculations, and create interactive programs that continue running until specific conditions are met.
+During my bootcamp training, I developed automated logic and clean data transformations to replace manual file processing workflows:
 
-**Examples of work completed:**
-- Built a menu-driven calculator using a `while` loop
-- Calculated cumulative totals using `for` loops and the `range()` function
-- Generated numerical patterns using nested loops
-- Applied loop control techniques such as `break`
+### 1. Algorithmic Business Logic & Flow Control
+* **Security & Access Validation:** Coded validation controls using conditional multi-branch processing (`if`, `elif`, `else`) to securely verify incoming strings and manage access logic based on defined criteria.
+* **Menu-Driven Interface Automation:** Built user-driven calculator tools inside persistent `while` loops, combining evaluation logic and custom loop control techniques (`break`) to keep programs running continuously without system crashes.
+* **Mathematical Operations:** Applied logical computational structures to resolve programmatic mathematical challenges, engineering factorial calculators, prime number identifiers, and loop-generated numerical tracking arrays using the `range()` function.
 
-## 🔹 Mathematical Problem Solving
+### 2. Programmatic Data Hygiene & Engineering (Pandas)
+* **Vectorized Data Cleansing:** Created Pandas DataFrames to systematically rename unformatted headers, transform legacy text strings into proper datetime/numerical data types, and clean dirty currency indicators for financial reporting.
+* **Calculated Metrics & Boolean Masking:** Avoided slow row-by-row iteration by deploying vectorized arrays to compute total revenue performance (pricing × volume shares) and fuel economy indicators. Used high-performance Boolean masks to isolate data slices, such as segmenting vehicle transmission variables and filtering rows outperforming median baseline metrics.
 
-Used Python to solve a range of mathematical and logical problems, strengthening computational thinking and debugging skills.
+---
 
-**Examples of work completed:**
-- Prime number checker
-- Factorial calculator
-- Sum of numbers calculator
-- Divisibility testing programs
-- Number pattern generators
+## 📂 Repository Architecture & Workspace
 
-## 🔹 Pandas Data Analysis
+### 🖼️ Environment Infrastructure
+The workspace snapshot below highlights the production layout of my development scripts hosted on GitHub, showcasing clean version control, modular script execution blocks, and unified project notebook delivery:
 
-Applied the Pandas library to work with structured datasets, perform data cleaning, transform data, and create analytical metrics.
+### 💾 Core Development Assets:
+* **`MAY_2026_KKS_DAY_2_1_1_Pandas...`**: Core structural data manipulation scripts handling multi-field DataFrame parsing and automated file exports.
+* **`MAY_26_KKS_Python_Day_2_1_2...`**: Targeted vectorization testing notebooks optimizing column operations and cleansing metrics.
+* **`MAY_26_KKS_Python_Day_3_Master...`**: Core loop architectures, advanced Boolean masks, and segmented data filtering scripts.
+* **`MAY_26_KKS_Python_Day_4_Task...`**: Practical application labs executing product revenue metrics and statistical summaries.
+* **`Python_Master.ipynb`**: The master compilation notebook consolidating interactive programs, custom business logic, and mathematical problem-solving assets.
 
-**Examples of work completed:**
-- Created DataFrames from dictionaries and datasets
-- Renamed and managed columns
-- Converted data types for analysis
-- Cleaned currency values and numerical fields
-- Created calculated columns such as total revenue and fuel economy metrics
-- Applied Boolean masking and filtering techniques
-- Exported datasets to CSV and Excel formats
+---
 
-## 🔹 Real-World Dataset Analysis
+## 📊 Core Analytical Applications & Logic Examples
 
-Worked with product sales and vehicle datasets to explore practical data analysis techniques commonly used within Data Analyst and Business Intelligence roles.
+### 💻 Automated Value Profiling & Logic
+To handle programmatic threshold segmentations without human error, I deployed conditional evaluation metrics inside the data pipeline:
 
-**Examples of work completed:**
-- Calculated product revenue using pricing and sales volumes
-- Identified automatic transmission vehicles using Boolean logic
-- Calculated percentages and summary statistics
-- Created weighted fuel economy calculations
-- Filtered records above median performance levels
+```python
+# Programmatic validation tracking example
+def assess_customer_velocity(order_volume):
+    if order_volume > 10:
+        return 'High Frequency Client'
+    elif 5 <= order_volume <= 10:
+        return 'Medium Frequency Client'
+    else:
+        return 'Low Frequency Client'
 
-## 🎯 Key Skills Developed
-
-- Python Programming
-- Pandas Data Analysis
-- Data Cleaning & Transformation
-- Conditional Logic
-- Loops & Iteration
-- DataFrames
-- Boolean Masking
-- Data Validation
-- Problem Solving
-- Debugging
-- Data Exporting
-- Analytical Thinking
-
-## 💡 Reflection
-
-These exercises strengthened my understanding of how Python can be used to automate processes, solve problems, and analyse data. Working with Pandas helped bridge the gap between programming and data analytics by allowing me to clean, transform, and interrogate datasets in a structured way. Through building interactive programs and analysing real-world datasets, I developed greater confidence in using Python as a tool for data analysis, automation, and decision-making.
+# Applied immediately across the entire tracking column via Pandas
+df['customer_tier'] = df['total_orders'].apply(assess_customer_velocity)
