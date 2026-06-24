@@ -4,7 +4,7 @@
 
 * **Role:** Associate Data Analyst (Data Analyst Bootcamp Client Project)
 * **Stakeholder Audience:** Operations Management & Business Intelligence Teams
-* **Context:** As a core technical milestone within my intensive Data Technician Bootcamp, I completed a series of programmatic data pipelines and core automation scripts using Python and the Pandas library. Transitioning from visual BI interfaces to programmatic execution, this project required using Google Colab and Jupyter Notebook environments to engineer algorithmic business logic (such as validation systems and conditional loops) and execute vectorized data cleansing on messy retail and vehicle datasets. The ultimate goal was to replace manual file manipulation with reproducible, automated data engineering workflows.
+* **Context:** As a core technical milestone within my intensive Data Analyst Bootcamp, I completed a series of programmatic data pipelines and core automation scripts using Python and the Pandas library. Transitioning from visual BI interfaces to programmatic execution, this project required using Google Colab and Jupyter Notebook environments to engineer algorithmic business logic (such as validation systems and conditional loops) and execute vectorized data cleansing on messy retail and vehicle datasets. The ultimate goal was to replace manual file manipulation with reproducible, automated data engineering workflows.
 
 ---
 
